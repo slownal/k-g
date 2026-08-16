@@ -46,8 +46,8 @@ export default function Home() {
         </div>
       </header>
 
-      {/* ── Hero title — upper third of screen ──────────────────────────── */}
-      <div className="flex-1 flex items-start justify-center pointer-events-none select-none pt-28">
+      {/* ── Hero title — placed at bottom on mobile, top on desktop ────────── */}
+      <div className="flex-1 flex items-end sm:items-start justify-center pointer-events-none select-none pb-40 sm:pb-0 sm:pt-28">
         <h1
           aria-label="Songs that remind Bittu of Kush"
           className="text-center px-6 leading-tight drop-shadow-2xl"
